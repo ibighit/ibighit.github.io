@@ -1,0 +1,26 @@
+.con_wrap.vw .side_menu .copy_right {left:auto;right:24px;bottom:14px;height:auto;transform-origin:right;transform:rotate(90deg);-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);}
+.con_wrap .side_menu .language.active .valign button {background:rgba(255,255,255,.1);}
+.con_wrap .side_menu .language.active .valign button:hover, .con_wrap .side_menu .language button.active {background:rgba(0,0,255,.5);}
+.con_wrap .side_menu .language.active .valign .lang_list .lang_inner button {background:rgba(255,255,255,.2);}
+.con_wrap .side_menu .language.active .valign .lang_list .lang_inner button:hover {background:rgba(0,0,255,.5);}
+
+.con_wrap.vw .side_menu .language.active .valign button:hover {background:rgba(255,255,255,.1);}
+.con_wrap.vw .side_menu .language.active .valign .lang_list .lang_inner button:hover {background:rgba(255,255,255,.2);}
+
+@media all and (min-width: 700px) and (max-width: 1474px) {
+
+	/* item_player*/
+	.con_wrap .item_wrap .item_player h1 {width:40.98vw;}
+	.con_wrap .item_wrap .item_player h1 img {width:100%;}
+	.con_wrap .item_wrap .item_player .play_list {height:24.46vw;margin-left:-31.19vw;}
+	.con_wrap .item_wrap .item_player .play_list .play_list00 {width:62.38vw;margin-right:2.1vw;}
+	.con_wrap .item_wrap .item_player .play_list .play_list00 ul li {width:24.46vw;height:24.46vw;}
+	.con_wrap .item_wrap .item_player .play_list .play_list00 ul li a.play_btn {width:5.16vw;height:5.16vw;}
+	.con_wrap .item_wrap .item_player .play_list .play_list00 ul li:nth-of-type(2) {margin-left:-12.23vw;}
+	.con_wrap .item_wrap .item_player .play_list .play_list00 ul li.thumb_secret_time .half_one .half_one01 {border-radius:0 12.23vw 12.23vw 0;}
+	.con_wrap .item_wrap .item_player .play_list .play_list00 ul li.thumb_secret_time .half_one .half_one02 {border-radius:12.23vw 0 0 12.23vw;}
+	.con_wrap .item_wrap .item_player .play_list .play_list00 .play_title {top:calc(100% + 2.09vw);font-size:1.71vw;}
+	.con_wrap .item_wrap .item_player .page_navi li {margin:0 1.04vw;}
+	.con_wrap .item_wrap .item_player .page_navi li button {width:14px;height:14px;}
+
+}

@@ -1,0 +1,46 @@
+@-webkit-keyframes rotating {
+    from{
+		transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+		transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spark {
+    0%{
+		border: 3px dotted rgba(255, 255, 255, 0.15);
+    }
+    50%{
+		border: 3px dotted rgba(255, 255, 255, 0.35);
+    }
+	100%{
+		border: 3px dotted rgba(255, 255, 255, 0.15);
+	}
+}
+
+@-moz-keyframes spark {
+    0%{
+		border: 3px dotted rgba(255, 255, 255, 0.15);
+    }
+    50%{
+		border: 3px dotted rgba(255, 255, 255, 0.35);
+    }
+	100%{
+		border: 3px dotted rgba(255, 255, 255, 0.15);
+	}
+}
+
+@keyframes spark {
+    0%{
+		border: 3px dotted rgba(255, 255, 255, 0.15);
+    }
+    50%{
+		border: 3px dotted rgba(255, 255, 255, 0.35);
+    }
+	100%{
+		border: 3px dotted rgba(255, 255, 255, 0.15);
+	}
+}

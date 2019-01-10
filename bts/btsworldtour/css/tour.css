@@ -1,0 +1,114 @@
+body{/*background:url("../images/bg_tour.png") center center no-repeat ;-webkit-background-size: cover;
+background-size: cover;*/ background: #fff;}
+
+/* header */
+header{width: 100%; height: 245px; background: url("../images/bg_header.png") center 0 no-repeat; background-size:cover;}
+header .inner{width: 82%; margin: 0 auto 70px;text-align: center;position: relative; padding-top: 65px;}
+header .logo{width: 176px;height: 67px;posi tion: absolute; left: 0; top: 0;}
+header .logo a{}
+header .logo a img{}
+header .center{width: 278px;height: 75px; margin: auto;}
+header .right{position: absolute; right: 0; top: 0;width: 100px; height: 100px; border: 1px solid #fff;}
+header .right img{margin-top: 15px;}
+
+/* content */
+#content{width: 840px;margin: 60px auto 30px;text-align: center;}
+#content .mobile-title{display: none;}
+#content .tour-list{margin-top: 50px;}
+#content .tour-list li{padding: 15px 0 15px;border-bottom: 1px solid #b1b6c0; text-align: left;}
+#content .tour-list li:first-child{border-top: 1px solid #b1b6c0;}
+#content .tour-list li.london{pad ding: 20px 0;}
+#content .tour-list li>div{width: 60%;float: left;}
+#content .tour-list li.london .info{transform:translateY(25px);}
+#content .tour-list li .date{margin-right: 140px;width: 36px;}
+#content .tour-list li .place{height: 42px;}
+#content .tour-list .long .place-m{display: none;}
+#content .tour-list li .condition{display: block;width: 140px;height: 35px; border: 1px solid #b1b6c0;float: right; margin-top: 2px; margin-right: 25px; background-position: center center; background-repeat: no-repeat; background-image: url("../images/coming.png");background-size:78px;cursor:default;}
+/* #content .tour-list li:nth-child(-n+3) .condition{background-image: url("../images/soldout.png");} */
+ #content .tour-list li.soldout .condition{background-color:#b1b6c0;background-image: url("../images/soldout.png");background-size:54px;}
+#content .tour-list li.onsale .condition{background: #f4a9c5 url("../images/onsale.png") center center no-repeat;background-size:45px;border: 1px solid #f4a9c5;cursor: pointer;}
+#content .tour-list li.london .btn2{width: 142px;float: right;margin-right: 25px;}
+#content .tour-list li.london .btn2 .condition{display: inline-block;float: none;}
+#content .tour-list li.london .btn2 .condition.soldout{background-color:#b1b6c0;background-image: url("../images/soldout.png");background-size:54px;border: 1px solid #b1b6c0;cursor:default;}
+ 
+#content .more{width: 250px;height: 50px; margin:50px auto 80px;border: 1px solid #b1b6c0; text-align: center; }
+#content .more img{margin-top: 15px;}
+
+
+
+/* footer */
+footer{text-align: center;padding-bottom: 80px;}
+footer .footer-gnb{display: none;width: 500px; margin: 0 auto 50px;}
+footer .footer-gnb li{flex-grow: 1;}
+footer img{}
+footer p{margin-top: 30px; color:#b1b6c0;}
+
+@media screen and (max-width: 880px) {
+	header{width: 100%; height:170px; margin-bottom: 30px; background-size:100%;background-repeat: repeat-y;}
+	header .inner{padding-top: 45px;}
+	header .logo a img{width: 190px;}
+	#content{width: 90%}
+	#content .tour-list li .date{margin-right: 80px;}
+	#content .tour-list .long .place{display: none;}
+	#content .tour-list .long .place-m{display: block;height: 36px;}
+}
+
+@media screen and (max-width: 670px) {
+	#content .tour-list li .date{margin-right: 60px;}
+	}
+@media screen and (max-width: 600px) {
+	#content .tour-list li .date{margin-right: 15px;}
+	#content .tour-list li .condition{margin-right: 5px}
+	#content .tour-list li.london .btn2{margin-right: 5px;}
+	}
+	
+@media screen and (max-width: 500px) {
+	header{width: 100%; height:150px; margin-bottom: 30px; background-size:100%;background-repeat: repeat-y;}
+	header .inner{padding-top: 45px;}
+	header .logo a img{width: 190px;}
+	header .center{display:none;}
+
+	#content{width: 95%;margin: 0 auto 30px;}
+	#content .title{width: 175px;}
+	#content .tour-list{margin-top: 20px;}
+	#content .tour-list li{padding: 10px 0 5px;text-align: center;}
+	#content .tour-list li div{width: 100%;}
+	#content .tour-list li .date{margin-right: 70px;margin-left: 5px;float: left;width: 35px;}
+	#content .tour-list li .place{float: left;height: 37px;}
+	#content .tour-list li .condition{flo at: none;text-align: left; margin:-35px 0 5px;margin-left: 130px;background-size:60px;width: 100px;}
+	#content .tour-list li.london .info{transform:translateY(20px);}
+	#content .tour-list li.london .btn2{display:inline-block;margin:-35px 0 0px;width: 102px;}
+	#content .tour-list li.london .btn2 .condition{margin: 0;}
+
+	#content .tour-list li.onsale .condition{background-size:36px; }
+	#content .tour-list li.soldout .condition{background-size:42px;}
+	#content .tour-list li.london .btn2 .condition.soldout{background-size:42px;}
+
+
+	#content .more{width: 180px; height: 40px;}
+	#content .more img{width: 140px; margin-top: 13px;}
+
+	footer .footer-gnb{display: none;}
+	footer img{width: 30px;}
+	footer p{width: 275px;margin: 20px auto;}
+
+	
+}
+@media screen and (max-width: 450px) {
+	#content{width: 98%;}
+	#content .tour-list li .date{margin-right:40px;margin-left: 5px;}
+	#content .tour-list li .condition{margin-left: 110px;}
+	}
+@media screen and (max-width: 400px) {
+	#content .tour-list li .date{margin-right:20px;margin-left: 5px;}
+
+	}
+@media screen and (max-width: 365px) {
+	#content{width: 98%;}
+	#content .tour-list li .date{margin-right:15px;margin-left: 5px;width: 25px;marg in-top: 5px;}
+	#content .tour-list li .place{height: 30px;}
+	#content .tour-list .long .place-m{height: 30px;}
+	#content .tour-list li .condition{margin:-31px 10px 5px;background-size:60px;width: 80px;height: 25px;}
+	#content .tour-list li.london .info{transform:translateY(15px);}
+	#content .tour-list li.london .btn2{margin:-30px 0 0px;}
+	}
