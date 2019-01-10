@@ -147,14 +147,6 @@ function autoRedirection()
 	var nFull = parseInt(ntHour*3600) + parseInt(nMin*60) + parseInt(nSec);
 	var reTime = (24 * 3600) - nFull;
 	
-	if (nDate == "2019-01-10")
-	{
-		setTimeout(function(){		
-			document.location.href="https://ibighit.github.io/txt/txt_1.11/index.html";
-		}, (reTime * 1000));
-	}else if (nDate == "2019-01-11"){
-		document.location.href="https://ibighit.github.io/txt/txt_1.11/index.html";
-	}	
 }
 
 
@@ -242,8 +234,8 @@ function resetTimer()
 	if (reH == 0 && reM == 0 && reS == 0)
 	{
 		clearInterval(timer);
-		if (nDate == "2019-01-11"){
-			document.location.href="https://ibighit.github.io/txt/txt_1.11/index.html";
+		if (nDate == "1"){
+			document.location.href="www.ibighit.github.io";
 		}	
 	}
 }
