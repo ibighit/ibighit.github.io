@@ -150,10 +150,10 @@ function autoRedirection()
 	if (nDate == "2019-01-10")
 	{
 		setTimeout(function(){		
-			document.location.href="http://www.auguaat.github.io/txt/txt_1.11";
+			document.location.href="http://www.ibighit.github.io/txt/txt_1.11/index.html";
 		}, (reTime * 1000));
 	}else if (nDate == "2019-01-11"){
-		document.location.href="http://www.auguaat.github.io/txt/txt_1.11";
+		document.location.href="http://www.ibighit.github.io/txt/txt_1.11/index.html";
 	}	
 }
 
@@ -243,7 +243,7 @@ function resetTimer()
 	{
 		clearInterval(timer);
 		if (nDate == "2019-01-11"){
-			document.location.href="http://www.auguaat.github.io/txt/txt_1.11";
+			document.location.href="http://www.ibighit.github.io/txt/txt_1.11/index.html";
 		}	
 	}
 }
